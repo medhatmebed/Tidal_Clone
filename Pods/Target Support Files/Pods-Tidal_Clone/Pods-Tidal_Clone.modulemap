@@ -1,0 +1,6 @@
+framework module Pods_Tidal_Clone {
+  umbrella header "Pods-Tidal_Clone-umbrella.h"
+
+  export *
+  module * { export * }
+}

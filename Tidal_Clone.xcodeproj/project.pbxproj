@@ -9,21 +9,69 @@
 /* Begin PBXBuildFile section */
 		2568E7582032BBC800AE72DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2568E7572032BBC800AE72DF /* AppDelegate.swift */; };
 		2568E75A2032BBC800AE72DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2568E7592032BBC800AE72DF /* ViewController.swift */; };
-		2568E75D2032BBC800AE72DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2568E75B2032BBC800AE72DF /* Main.storyboard */; };
 		2568E75F2032BBC800AE72DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2568E75E2032BBC800AE72DF /* Assets.xcassets */; };
 		2568E7622032BBC800AE72DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2568E7602032BBC800AE72DF /* LaunchScreen.storyboard */; };
 		2568E7702032BF0300AE72DF /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2568E76F2032BF0300AE72DF /* TabBar.swift */; };
+		2568E7732032C1AD00AE72DF /* AlbumsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2568E7712032C1AD00AE72DF /* AlbumsData.swift */; };
+		2568E7742032C1AD00AE72DF /* TidalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2568E7722032C1AD00AE72DF /* TidalData.swift */; };
+		2568E77A2032C1BF00AE72DF /* AlbumPreviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2568E7752032C1BE00AE72DF /* AlbumPreviews.swift */; };
+		2568E77B2032C1BF00AE72DF /* AlbumViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2568E7762032C1BE00AE72DF /* AlbumViewModel.swift */; };
+		2568E77C2032C1BF00AE72DF /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2568E7772032C1BF00AE72DF /* Header.swift */; };
+		2568E77D2032C1BF00AE72DF /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2568E7782032C1BF00AE72DF /* Album.swift */; };
+		2568E77E2032C1BF00AE72DF /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2568E7792032C1BF00AE72DF /* Track.swift */; };
+		2568E7892032C1DA00AE72DF /* AlbumViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2568E77F2032C1D900AE72DF /* AlbumViewCell.swift */; };
+		2568E78A2032C1DA00AE72DF /* HeaderViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2568E7802032C1DA00AE72DF /* HeaderViewCell.swift */; };
+		2568E78B2032C1DA00AE72DF /* AlbumViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2568E7812032C1DA00AE72DF /* AlbumViewCell.xib */; };
+		2568E78C2032C1DA00AE72DF /* AlbumPreviewCellCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2568E7822032C1DA00AE72DF /* AlbumPreviewCellCollectionViewCell.swift */; };
+		2568E78D2032C1DA00AE72DF /* TrackViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2568E7832032C1DA00AE72DF /* TrackViewCell.swift */; };
+		2568E78E2032C1DA00AE72DF /* TrackViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2568E7842032C1DA00AE72DF /* TrackViewCell.xib */; };
+		2568E78F2032C1DA00AE72DF /* HeaderViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2568E7852032C1DA00AE72DF /* HeaderViewCell.xib */; };
+		2568E7902032C1DA00AE72DF /* ButtonViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2568E7862032C1DA00AE72DF /* ButtonViewCell.swift */; };
+		2568E7912032C1DA00AE72DF /* ButtonViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2568E7872032C1DA00AE72DF /* ButtonViewCell.xib */; };
+		2568E7922032C1DA00AE72DF /* AlbumPreviewCellCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2568E7882032C1DA00AE72DF /* AlbumPreviewCellCollectionViewCell.xib */; };
+		2568E79B2032C21F00AE72DF /* HeaderSectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2568E7962032C21F00AE72DF /* HeaderSectionController.swift */; };
+		2568E79C2032C21F00AE72DF /* AlbumPreviewSectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2568E7972032C21F00AE72DF /* AlbumPreviewSectionController.swift */; };
+		2568E79D2032C21F00AE72DF /* AlbumSectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2568E7982032C21F00AE72DF /* AlbumSectionController.swift */; };
+		2568E79E2032C21F00AE72DF /* ButtonSectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2568E7992032C21F00AE72DF /* ButtonSectionController.swift */; };
+		2568E79F2032C21F00AE72DF /* TrackSectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2568E79A2032C21F00AE72DF /* TrackSectionController.swift */; };
+		2568E7A12032C25F00AE72DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2568E7A02032C25F00AE72DF /* Main.storyboard */; };
+		FE73893121F66F26C47C03E0 /* Pods_Tidal_Clone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6A965A55ACF3F5B1BB4526B /* Pods_Tidal_Clone.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		072EA00335EC16BD73D841B2 /* Pods-Tidal_Clone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tidal_Clone.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tidal_Clone/Pods-Tidal_Clone.debug.xcconfig"; sourceTree = "<group>"; };
 		2568E7542032BBC800AE72DF /* Tidal_Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tidal_Clone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2568E7572032BBC800AE72DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2568E7592032BBC800AE72DF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2568E75C2032BBC800AE72DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2568E75E2032BBC800AE72DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2568E7612032BBC800AE72DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2568E7632032BBC800AE72DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2568E76F2032BF0300AE72DF /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		2568E7712032C1AD00AE72DF /* AlbumsData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumsData.swift; sourceTree = "<group>"; };
+		2568E7722032C1AD00AE72DF /* TidalData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TidalData.swift; sourceTree = "<group>"; };
+		2568E7752032C1BE00AE72DF /* AlbumPreviews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumPreviews.swift; sourceTree = "<group>"; };
+		2568E7762032C1BE00AE72DF /* AlbumViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumViewModel.swift; sourceTree = "<group>"; };
+		2568E7772032C1BF00AE72DF /* Header.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
+		2568E7782032C1BF00AE72DF /* Album.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
+		2568E7792032C1BF00AE72DF /* Track.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
+		2568E77F2032C1D900AE72DF /* AlbumViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumViewCell.swift; sourceTree = "<group>"; };
+		2568E7802032C1DA00AE72DF /* HeaderViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderViewCell.swift; sourceTree = "<group>"; };
+		2568E7812032C1DA00AE72DF /* AlbumViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AlbumViewCell.xib; sourceTree = "<group>"; };
+		2568E7822032C1DA00AE72DF /* AlbumPreviewCellCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumPreviewCellCollectionViewCell.swift; sourceTree = "<group>"; };
+		2568E7832032C1DA00AE72DF /* TrackViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackViewCell.swift; sourceTree = "<group>"; };
+		2568E7842032C1DA00AE72DF /* TrackViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TrackViewCell.xib; sourceTree = "<group>"; };
+		2568E7852032C1DA00AE72DF /* HeaderViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeaderViewCell.xib; sourceTree = "<group>"; };
+		2568E7862032C1DA00AE72DF /* ButtonViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonViewCell.swift; sourceTree = "<group>"; };
+		2568E7872032C1DA00AE72DF /* ButtonViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ButtonViewCell.xib; sourceTree = "<group>"; };
+		2568E7882032C1DA00AE72DF /* AlbumPreviewCellCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AlbumPreviewCellCollectionViewCell.xib; sourceTree = "<group>"; };
+		2568E7962032C21F00AE72DF /* HeaderSectionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderSectionController.swift; sourceTree = "<group>"; };
+		2568E7972032C21F00AE72DF /* AlbumPreviewSectionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumPreviewSectionController.swift; sourceTree = "<group>"; };
+		2568E7982032C21F00AE72DF /* AlbumSectionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumSectionController.swift; sourceTree = "<group>"; };
+		2568E7992032C21F00AE72DF /* ButtonSectionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonSectionController.swift; sourceTree = "<group>"; };
+		2568E79A2032C21F00AE72DF /* TrackSectionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackSectionController.swift; sourceTree = "<group>"; };
+		2568E7A02032C25F00AE72DF /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		5BE0A22EDA0CEB19E70C29DA /* Pods-Tidal_Clone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tidal_Clone.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tidal_Clone/Pods-Tidal_Clone.release.xcconfig"; sourceTree = "<group>"; };
+		A6A965A55ACF3F5B1BB4526B /* Pods_Tidal_Clone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tidal_Clone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +79,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE73893121F66F26C47C03E0 /* Pods_Tidal_Clone.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B4E534DF7358992A168224B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				072EA00335EC16BD73D841B2 /* Pods-Tidal_Clone.debug.xcconfig */,
+				5BE0A22EDA0CEB19E70C29DA /* Pods-Tidal_Clone.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		2568E74B2032BBC800AE72DF = {
 			isa = PBXGroup;
 			children = (
 				2568E7562032BBC800AE72DF /* Tidal_Clone */,
 				2568E7552032BBC800AE72DF /* Products */,
+				0B4E534DF7358992A168224B /* Pods */,
+				7289011B4FFBB18871ACD599 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,7 +121,6 @@
 				2568E76A2032BE3700AE72DF /* View */,
 				2568E7692032BE2F00AE72DF /* Controller */,
 				2568E7572032BBC800AE72DF /* AppDelegate.swift */,
-				2568E75B2032BBC800AE72DF /* Main.storyboard */,
 				2568E75E2032BBC800AE72DF /* Assets.xcassets */,
 				2568E7602032BBC800AE72DF /* LaunchScreen.storyboard */,
 				2568E7632032BBC800AE72DF /* Info.plist */,
@@ -73,6 +132,7 @@
 			isa = PBXGroup;
 			children = (
 				2568E7592032BBC800AE72DF /* ViewController.swift */,
+				2568E7952032C20200AE72DF /* Sections */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -80,7 +140,18 @@
 		2568E76A2032BE3700AE72DF /* View */ = {
 			isa = PBXGroup;
 			children = (
+				2568E7A02032C25F00AE72DF /* Main.storyboard */,
 				2568E76F2032BF0300AE72DF /* TabBar.swift */,
+				2568E7822032C1DA00AE72DF /* AlbumPreviewCellCollectionViewCell.swift */,
+				2568E7882032C1DA00AE72DF /* AlbumPreviewCellCollectionViewCell.xib */,
+				2568E77F2032C1D900AE72DF /* AlbumViewCell.swift */,
+				2568E7812032C1DA00AE72DF /* AlbumViewCell.xib */,
+				2568E7862032C1DA00AE72DF /* ButtonViewCell.swift */,
+				2568E7872032C1DA00AE72DF /* ButtonViewCell.xib */,
+				2568E7802032C1DA00AE72DF /* HeaderViewCell.swift */,
+				2568E7852032C1DA00AE72DF /* HeaderViewCell.xib */,
+				2568E7832032C1DA00AE72DF /* TrackViewCell.swift */,
+				2568E7842032C1DA00AE72DF /* TrackViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -88,6 +159,11 @@
 		2568E76B2032BE3E00AE72DF /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				2568E7782032C1BF00AE72DF /* Album.swift */,
+				2568E7752032C1BE00AE72DF /* AlbumPreviews.swift */,
+				2568E7762032C1BE00AE72DF /* AlbumViewModel.swift */,
+				2568E7772032C1BF00AE72DF /* Header.swift */,
+				2568E7792032C1BF00AE72DF /* Track.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -95,8 +171,30 @@
 		2568E76C2032BE4600AE72DF /* DataService */ = {
 			isa = PBXGroup;
 			children = (
+				2568E7712032C1AD00AE72DF /* AlbumsData.swift */,
+				2568E7722032C1AD00AE72DF /* TidalData.swift */,
 			);
 			path = DataService;
+			sourceTree = "<group>";
+		};
+		2568E7952032C20200AE72DF /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+				2568E7972032C21F00AE72DF /* AlbumPreviewSectionController.swift */,
+				2568E7982032C21F00AE72DF /* AlbumSectionController.swift */,
+				2568E7992032C21F00AE72DF /* ButtonSectionController.swift */,
+				2568E7962032C21F00AE72DF /* HeaderSectionController.swift */,
+				2568E79A2032C21F00AE72DF /* TrackSectionController.swift */,
+			);
+			path = Sections;
+			sourceTree = "<group>";
+		};
+		7289011B4FFBB18871ACD599 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6A965A55ACF3F5B1BB4526B /* Pods_Tidal_Clone.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -106,9 +204,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2568E7662032BBC800AE72DF /* Build configuration list for PBXNativeTarget "Tidal_Clone" */;
 			buildPhases = (
+				90244EE079DD625005C2D2EA /* [CP] Check Pods Manifest.lock */,
 				2568E7502032BBC800AE72DF /* Sources */,
 				2568E7512032BBC800AE72DF /* Frameworks */,
 				2568E7522032BBC800AE72DF /* Resources */,
+				9BD45321B46E62BB4BC4C42C /* [CP] Embed Pods Frameworks */,
+				D671D95126D9B7B760B6132B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -159,35 +260,97 @@
 			buildActionMask = 2147483647;
 			files = (
 				2568E7622032BBC800AE72DF /* LaunchScreen.storyboard in Resources */,
+				2568E7922032C1DA00AE72DF /* AlbumPreviewCellCollectionViewCell.xib in Resources */,
+				2568E7912032C1DA00AE72DF /* ButtonViewCell.xib in Resources */,
+				2568E7A12032C25F00AE72DF /* Main.storyboard in Resources */,
 				2568E75F2032BBC800AE72DF /* Assets.xcassets in Resources */,
-				2568E75D2032BBC800AE72DF /* Main.storyboard in Resources */,
+				2568E78B2032C1DA00AE72DF /* AlbumViewCell.xib in Resources */,
+				2568E78F2032C1DA00AE72DF /* HeaderViewCell.xib in Resources */,
+				2568E78E2032C1DA00AE72DF /* TrackViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		90244EE079DD625005C2D2EA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9BD45321B46E62BB4BC4C42C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tidal_Clone/Pods-Tidal_Clone-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D671D95126D9B7B760B6132B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tidal_Clone/Pods-Tidal_Clone-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2568E7502032BBC800AE72DF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2568E77C2032C1BF00AE72DF /* Header.swift in Sources */,
+				2568E7892032C1DA00AE72DF /* AlbumViewCell.swift in Sources */,
+				2568E77E2032C1BF00AE72DF /* Track.swift in Sources */,
+				2568E78A2032C1DA00AE72DF /* HeaderViewCell.swift in Sources */,
 				2568E7702032BF0300AE72DF /* TabBar.swift in Sources */,
+				2568E7732032C1AD00AE72DF /* AlbumsData.swift in Sources */,
+				2568E77A2032C1BF00AE72DF /* AlbumPreviews.swift in Sources */,
+				2568E77B2032C1BF00AE72DF /* AlbumViewModel.swift in Sources */,
+				2568E77D2032C1BF00AE72DF /* Album.swift in Sources */,
+				2568E79F2032C21F00AE72DF /* TrackSectionController.swift in Sources */,
+				2568E78C2032C1DA00AE72DF /* AlbumPreviewCellCollectionViewCell.swift in Sources */,
+				2568E79B2032C21F00AE72DF /* HeaderSectionController.swift in Sources */,
+				2568E78D2032C1DA00AE72DF /* TrackViewCell.swift in Sources */,
+				2568E79E2032C21F00AE72DF /* ButtonSectionController.swift in Sources */,
+				2568E7742032C1AD00AE72DF /* TidalData.swift in Sources */,
 				2568E75A2032BBC800AE72DF /* ViewController.swift in Sources */,
 				2568E7582032BBC800AE72DF /* AppDelegate.swift in Sources */,
+				2568E79C2032C21F00AE72DF /* AlbumPreviewSectionController.swift in Sources */,
+				2568E7902032C1DA00AE72DF /* ButtonViewCell.swift in Sources */,
+				2568E79D2032C21F00AE72DF /* AlbumSectionController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		2568E75B2032BBC800AE72DF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2568E75C2032BBC800AE72DF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2568E7602032BBC800AE72DF /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -308,6 +471,7 @@
 		};
 		2568E7672032BBC800AE72DF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 072EA00335EC16BD73D841B2 /* Pods-Tidal_Clone.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -322,6 +486,7 @@
 		};
 		2568E7682032BBC800AE72DF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BE0A22EDA0CEB19E70C29DA /* Pods-Tidal_Clone.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
