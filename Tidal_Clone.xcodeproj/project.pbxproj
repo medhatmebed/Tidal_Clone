@@ -1,0 +1,361 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2568E7582032BBC800AE72DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2568E7572032BBC800AE72DF /* AppDelegate.swift */; };
+		2568E75A2032BBC800AE72DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2568E7592032BBC800AE72DF /* ViewController.swift */; };
+		2568E75D2032BBC800AE72DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2568E75B2032BBC800AE72DF /* Main.storyboard */; };
+		2568E75F2032BBC800AE72DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2568E75E2032BBC800AE72DF /* Assets.xcassets */; };
+		2568E7622032BBC800AE72DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2568E7602032BBC800AE72DF /* LaunchScreen.storyboard */; };
+		2568E7702032BF0300AE72DF /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2568E76F2032BF0300AE72DF /* TabBar.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2568E7542032BBC800AE72DF /* Tidal_Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tidal_Clone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2568E7572032BBC800AE72DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2568E7592032BBC800AE72DF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2568E75C2032BBC800AE72DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2568E75E2032BBC800AE72DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2568E7612032BBC800AE72DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2568E7632032BBC800AE72DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2568E76F2032BF0300AE72DF /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2568E7512032BBC800AE72DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2568E74B2032BBC800AE72DF = {
+			isa = PBXGroup;
+			children = (
+				2568E7562032BBC800AE72DF /* Tidal_Clone */,
+				2568E7552032BBC800AE72DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2568E7552032BBC800AE72DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2568E7542032BBC800AE72DF /* Tidal_Clone.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2568E7562032BBC800AE72DF /* Tidal_Clone */ = {
+			isa = PBXGroup;
+			children = (
+				2568E76C2032BE4600AE72DF /* DataService */,
+				2568E76B2032BE3E00AE72DF /* Model */,
+				2568E76A2032BE3700AE72DF /* View */,
+				2568E7692032BE2F00AE72DF /* Controller */,
+				2568E7572032BBC800AE72DF /* AppDelegate.swift */,
+				2568E75B2032BBC800AE72DF /* Main.storyboard */,
+				2568E75E2032BBC800AE72DF /* Assets.xcassets */,
+				2568E7602032BBC800AE72DF /* LaunchScreen.storyboard */,
+				2568E7632032BBC800AE72DF /* Info.plist */,
+			);
+			path = Tidal_Clone;
+			sourceTree = "<group>";
+		};
+		2568E7692032BE2F00AE72DF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2568E7592032BBC800AE72DF /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2568E76A2032BE3700AE72DF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2568E76F2032BF0300AE72DF /* TabBar.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2568E76B2032BE3E00AE72DF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2568E76C2032BE4600AE72DF /* DataService */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataService;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2568E7532032BBC800AE72DF /* Tidal_Clone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2568E7662032BBC800AE72DF /* Build configuration list for PBXNativeTarget "Tidal_Clone" */;
+			buildPhases = (
+				2568E7502032BBC800AE72DF /* Sources */,
+				2568E7512032BBC800AE72DF /* Frameworks */,
+				2568E7522032BBC800AE72DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tidal_Clone;
+			productName = Tidal_Clone;
+			productReference = 2568E7542032BBC800AE72DF /* Tidal_Clone.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2568E74C2032BBC800AE72DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Medhatm3bd;
+				TargetAttributes = {
+					2568E7532032BBC800AE72DF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2568E74F2032BBC800AE72DF /* Build configuration list for PBXProject "Tidal_Clone" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2568E74B2032BBC800AE72DF;
+			productRefGroup = 2568E7552032BBC800AE72DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2568E7532032BBC800AE72DF /* Tidal_Clone */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2568E7522032BBC800AE72DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2568E7622032BBC800AE72DF /* LaunchScreen.storyboard in Resources */,
+				2568E75F2032BBC800AE72DF /* Assets.xcassets in Resources */,
+				2568E75D2032BBC800AE72DF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2568E7502032BBC800AE72DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2568E7702032BF0300AE72DF /* TabBar.swift in Sources */,
+				2568E75A2032BBC800AE72DF /* ViewController.swift in Sources */,
+				2568E7582032BBC800AE72DF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2568E75B2032BBC800AE72DF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2568E75C2032BBC800AE72DF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2568E7602032BBC800AE72DF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2568E7612032BBC800AE72DF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2568E7642032BBC800AE72DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2568E7652032BBC800AE72DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2568E7672032BBC800AE72DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Tidal_Clone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "medhat.Tidal-Clone";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2568E7682032BBC800AE72DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Tidal_Clone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "medhat.Tidal-Clone";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2568E74F2032BBC800AE72DF /* Build configuration list for PBXProject "Tidal_Clone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2568E7642032BBC800AE72DF /* Debug */,
+				2568E7652032BBC800AE72DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2568E7662032BBC800AE72DF /* Build configuration list for PBXNativeTarget "Tidal_Clone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2568E7672032BBC800AE72DF /* Debug */,
+				2568E7682032BBC800AE72DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2568E74C2032BBC800AE72DF /* Project object */;
+}
